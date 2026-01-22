@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+<style>
+    form {
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    h1 {
+        text-align: center;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        text-align: start;
+        background-color: green;
+    }
+    div {
+        margin-bottom: 15px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: start;
+    }
+    input, textarea {
+        width: 80%;
+        padding: 8px;
+        box-sizing: border-box;
+        text-align: start;
+    }
+    h2 {
+        text-align: start;
+    }
+    query_type {
+        margin-right: 10px;
+        box-sizing: border-box;
+        text-align: start;
+    }
+    submit {
+        width: 50%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+</style>    
+
+</head>
+<body>
+    <form action="" method="post">
+    <h1>Contact Us</h1>
+            <div>
+            <label for="First Name">First Name*</label>
+            <input type="text" id="first_name" name="first_name"  required>
+            </div>
+            <div>
+            <label for="Last Name">Last Name*</label>
+            <input type="text" id="last_name" name="last_name" required>
+            </div>
+            <div>
+            <label for="Email Address">Email Address*</label>
+            <input type="email address" id="email address" name="email address" required>
+            </div>
+            <div>
+                <label for="Query Type">Query Type*</label>
+                <input type="radio" id="general_inquiry" name="query_type" value="general_inquiry" required>
+                <label for="general_inquiry">General Inquiry</label>
+                <input type="radio" id="support_request" name="query_type" value="support_request" required>
+                <label for="support_request">Support Request</label>
+            </div>
+            <div>
+                <label for="Message">Message</label>
+                <textarea id="message" name="message" rows="4" cols="50" ></textarea>
+                </div>
+                <div>
+                    <p>
+                        <strong>Consent to Contact:</strong>
+                    </p>
+                     <input type="checkbox" name="consent" id="consent" required>
+                    <label for="consent">I consent to be contacted by the team</label>
+                </div>
+            <input type="submit" value="Submit">
+        </form>   
+</body>
+</html>

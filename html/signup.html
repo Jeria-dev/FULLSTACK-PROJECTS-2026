@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for Github</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: blueviolet;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign up for Github</h1>
+    <button>Continue with Google</button>
+    <button>Continue with Apple</button>
+    <p>or</p>
+    <form action="" method="post">
+         <div>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+    </div>
+    <div>
+        <label for="password">Password*</label>
+        <input type="password" id="password" name="password" placeholder="password">
+    </div>
+    <div>
+        <label for="username">Username*</label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+    </div>
+    <div>
+        <label for="country">Your country or region</label>
+        <select id="country" name="country">
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="au">Australia</option>
+            <option value="ken">Kenya</option>
+            <option value="all countries">all countries</option>
+        </select>
+    </div>
+    <div>
+        <p>Email preferences</p>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        <label for="subscribe">Send me occasional product updates,announcements, and offers.</label>  
+    </div>
+    <input type="submit" value="Create account">
+    </form>
+</body>
+</html>
+
+
+<!-- The type attribute in input elements helps in input validation  -->
+<!-- The required attribute ensures that the field must be filled before submission -->
+<!-- The id attribute uniquely identifies each element in a web page -->
+<!-- The name attribute is used to reference the form data after submission -->
+ <!-- The label element is used to provide a caption for an input element -->
