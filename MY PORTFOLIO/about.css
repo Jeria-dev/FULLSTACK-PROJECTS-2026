@@ -1,0 +1,94 @@
+body {
+  background-color: #050b1a;
+}
+
+.my-details {
+  background-color: rgb(252, 252, 252);
+  margin: 30px 20px;
+  height: 300px;
+  padding: 50px;
+}
+
+.my-details h1 {
+  font-size: 30pt;
+  border-bottom: 3px solid black;
+  width: fit-content;
+  border-style: double;
+  background-color: #050b1a;
+  color: white;
+}
+
+.my-details p {
+  color: black;
+  font-size: 20pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  background-color: #050b1a;
+  margin: 30px 20px;
+  height: 300px;
+  padding: 50px;
+  column-gap: 20px;
+}
+
+.my-meta {
+  background-color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  color: black;
+  background-color: rgb(252, 252, 252);
+  margin: 30px 20px;
+  height: 300px;
+  padding: 50px;
+}
+
+.head td {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+th {
+  font-size: 26pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+}
+td {
+  border-bottom: 3px solid black;
+  padding: 6px;
+  font-size: 14pt;
+}
+
+.one {
+  color: brown;
+  font-weight: bold;
+}
+
+.drives {
+  color: black;
+  background-color: rgb(252, 252, 252);
+  margin: 30px 20px;
+  height: 300px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: block;
+  border: 2px solid black;
+  gap: 10px;
+  width: 250px;
+}

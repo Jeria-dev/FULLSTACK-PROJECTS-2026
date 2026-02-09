@@ -1,0 +1,31 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+section {
+  background-color: hsl(244, 37%, 16%);
+  margin: 100px;
+  display: flex;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.sect-text {
+  padding: 40px;
+  font-size: 40px;
+}
+
+ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul strong {
+  font-size: 20px;
+  display: block;
+}

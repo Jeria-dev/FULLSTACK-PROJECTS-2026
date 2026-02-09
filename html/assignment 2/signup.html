@@ -9,7 +9,7 @@
         max-width: 500px;
         margin: auto;
         padding: 20px;
-        border: 1px solid #ccc;
+        border: 5px solid #ccc;
         border-radius: 5px;
         background-color: #f9f9f9;
     }
@@ -20,13 +20,13 @@
         font-family: Arial, sans-serif;
         margin: 20px;
         text-align: start;
-        background-color: green;
+        background-color: rgba(0, 128, 0, 0.236);
     }
     div {
         margin-bottom: 15px;
     }
     label {
-        display: block;
+        
         margin-bottom: 5px;
         text-align: start;
     }
@@ -44,14 +44,16 @@
         box-sizing: border-box;
         text-align: start;
     }
-    submit {
-        width: 50%;
+    input[type="submit"] {
+        width: 20%;
         padding: 10px;
-        background-color: #4CAF50;
+        background-color: #6a996bc7;
         color: white;
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        text-align: center;
+        position: center;
     }
 
 </style>    
@@ -73,11 +75,11 @@
             <input type="email address" id="email address" name="email address" required>
             </div>
             <div>
-                <label for="Query Type">Query Type*</label>
+                <label for="Query Type">Query Type*</label> <br>
                 <input type="radio" id="general_inquiry" name="query_type" value="general_inquiry" required>
-                <label for="general_inquiry">General Inquiry</label>
+                <label for="general_inquiry">General Inquiry</label> <br>
                 <input type="radio" id="support_request" name="query_type" value="support_request" required>
-                <label for="support_request">Support Request</label>
+                <label for="support_request">Support Request</label> <br>
             </div>
             <div>
                 <label for="Message">Message</label>

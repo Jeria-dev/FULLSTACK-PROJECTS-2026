@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020617;
+  border-bottom: 5px solid #13a5c3;
+  padding: 0 20px;
+  margin: 0 0;
+}
+
+.logo {
+  color: #00d2ff;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.logo span {
+  color: whitesmoke;
+  font-size: 28px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1792bb;
+  font-size: 16px;
+  transition: color 0.1s ease;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f1f5f9;
+  border-bottom: 2px solid #00d2ff;
+}
+
+.topic {
+  color: white;
+  font-size: 24pt;
+  padding: 5px;
+}
+
+body {
+  background-image: url(images/—Pngtree—futuristic\ server\ room\ with\ glowing_18955805.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero {
+  background-color: #020617;
+  margin: 0 0 50px 0;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  color: #00e5ff;
+  padding: 50px;
+  display: flex;
+  padding-left: 80px;
+}
+
+.hero-image {
+  display: flex;
+  padding-right: 180px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 60pt;
+}
+
+.name {
+  background-color: #1e293b;
+  font-size: 72pt;
+}
+
+.hero-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00e5ff;
+  box-shadow:
+    0 0 20px #00e5ff,
+    0 0 40px #00e5ff;
+}
+
+.CTA {
+  background-color: #020617;
+}
+
+.CTA p {
+  font-size: 18pt;
+  color: #f1f5f9;
+  padding-left: 250px;
+}
+
+button {
+  text-align: center;
+  margin-left: 600px;
+  padding: 10px 70px;
+  cursor: pointer;
+  background-color: #13a5c3;
+  font-size: 18pt;
+  font-weight: bolder;
+}
+
+hr {
+  font-weight: bolder;
+  border: 2px dashed black;
+}
